@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/879/880/original/gold-3d-casino-dice-in-yellow-scene-on-blurred-background-vector.jpg');
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-direction: column;
+   
+}
+
+h2 {
+    font-size: 2.5;
+    color: black;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ff7e5f;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff7e5f;
+    color: #fff;
+}
+
+#msg {
+    font-size: 1.2;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color:black;
+}
